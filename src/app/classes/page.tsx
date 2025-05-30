@@ -19,7 +19,7 @@ export default function Classes() {
   return (
     <>
       <Head>
-        <title>Restaurant Hukka Bukka</title>
+        <title>Atelier CAMARIO</title>
       </Head>
 
       <main className="min-h-screen relative overflow-hidden">
@@ -147,7 +147,7 @@ export default function Classes() {
         </Swiper>
         <div className="w-full max-w-[520px] min-h-screen flex flex-col justify-between items-center fixed bottom-[30px] left-[1%] py-10 z-10">
           <Link href="/" className="font-semibold cursor-pointer">
-            Hukka Bukka
+            <img width={100} src="https://i.ibb.co/jv8vLVHS/logos-copy.png" alt="ac" />
           </Link>
           <NavigationFooter />
         </div>

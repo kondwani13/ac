@@ -6,12 +6,12 @@ const Footer = () => {
     <div className="w-full flex justify-between px-[10px] mt-[96px] mb-[80px]">
       <div className="w-full max-w-[162px]">
         <Link href="/" className="font-semibold cursor-pointer">
-          Hukka Bukka
+          <img width={100} src="https://i.ibb.co/jv8vLVHS/logos-copy.png" alt="ac" />
         </Link>
         <p className="mt-[32px] text-white text-opacity-50">
-          Created by Shariar Sheikh,{" "}
+          Created by Kondwani tech,{" "}
           <Link
-            href="https://shariar.vercel.app/"
+            href="https://portfolio-u312.onrender.com/"
             target="_blank"
             className="text-blue-600 hover:underline"
           >
@@ -26,9 +26,7 @@ const Footer = () => {
           <li className="mb-[16px] text-[16px] text-white text-opacity-50 cursor-pointer">
             <Link href="/menu">Menu</Link>
           </li>
-          <li className="mb-[16px] text-[16px] text-white text-opacity-50 cursor-pointer">
-            <Link href="/restaurant">Restaurant</Link>
-          </li>
+          
           <li className="mb-[16px] text-[16px] text-white text-opacity-50 cursor-pointer">
             <Link href="/classes">Classes</Link>
           </li>

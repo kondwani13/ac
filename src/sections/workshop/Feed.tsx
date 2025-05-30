@@ -20,7 +20,7 @@ const Feed = () => {
         <button className="h-[60px] rounded-[50px] w-[181px] bg-[#F8D49E] uppercase text-black active:scale-95 duration-150">
           Book A Spot
         </button>
-        <p className="ml-[32px] text-[24px]">89€</p>
+        <p className="ml-[32px] text-[24px]">100k</p>
       </div>
       <div className="w-full px-[10px]">
         <h1 className="text-[#FACE8D] font-dancing text-[64px] leading-none">
@@ -58,7 +58,7 @@ const Feed = () => {
           <li className="flex items-center justify-between h-[80px]">
             <h4 className="text-[20px] font-medium">Location</h4>
             <p className="text-[18px] text-white text-opacity-50">
-              Hukka Bukka.Bangladesh, Dhaka, Street 1234
+              Nalikwanda Rd, Lusaka 10101
             </p>
           </li>
         </ul>

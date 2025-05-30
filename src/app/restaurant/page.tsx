@@ -9,13 +9,13 @@ export default function Restaurant() {
   return (
     <>
       <Head>
-        <title>Restaurant Hukka Bukka</title>
+        <title>Atelier CAMARIO</title>
       </Head>
 
       <main className="min-h-screen relative overflow-hidden">
         <section className="!fixed inset-0 min-h-screen w-full bg-transparent flex flex-col items-center justify-between p-12 z-[20]">
           <Link href="/" className="font-semibold cursor-pointer">
-            Hukka Bukka
+            <img width={100} src="https://i.ibb.co/jv8vLVHS/logos-copy.png" alt="ac" />
           </Link>
 
           <div className="w-full flex flex-col items-center">

@@ -1,6 +1,6 @@
 "use client";
 
-import blogData from "@/utils/blogData";
+import shopData from "@/utils/shopData";
 import Footer from "@/components/Footer";
 import NavigationFooter from "@/components/NavigationFooter";
 import { Metadata, NextPage } from "next";
@@ -12,50 +12,50 @@ import Head from "next/head";
 
 //------------------------------------------------------------------
 interface PageProps {
-  params: { blogId: string };
+  params: { shopId: string };
   searchParams: { [key: string]: string | string[] | undefined };
 }
 
-interface BlogData {
+interface shopData {
   id: number;
   title: string;
   description: string;
-  time: string;
+  price: string;
   img: string;
 }
 //------------------------------------------------------------------
 
 const Page: NextPage<PageProps> = ({ params }: PageProps) => {
-  const [blogState, setBlogState] = useState<BlogData>({
+  const [shopState, setShopState] = useState<shopData>({
     id: 0,
     title: "",
     description: "",
-    time: "",
+    price: "",
     img: "",
   });
 
-  const { blogId } = params;
+  const { shopId } = params;
   const navigation = useRouter();
 
   useEffect(() => {
-    const blog = blogData.find((value) => value.id === Number(blogId));
-    if (!blog?.title) return navigation.replace("/blog");
-    setBlogState(blog);
+    const shop = shopData.find((value) => value.id === Number(shopId));
+    if (!shop?.title) return navigation.replace("/shop");
+    setShopState(shop);
 
     return () => undefined;
-  }, [blogId, navigation]);
+  }, [shopId, navigation]);
 
   return (
     <>
       <Head>
-        <title>Blog - {blogState.title ?? ""}</title>
+        <title>Shop - {shopState.title ?? ""}</title>
       </Head>
 
       <main className="min-h-screen relative overflow-hidden">
         <section className="w-full flex flex-col lg:flex-row h-full min-h-screen overflow-hidden">
           <div
             style={{
-              background: `url(${blogState.img})`,
+              background: `url(${shopState.img})`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -67,10 +67,10 @@ const Page: NextPage<PageProps> = ({ params }: PageProps) => {
             </Link>
             <div className="text-center">
               <h2 className="text-[#FACE8D] font-dancing text-[50px] lg:text-[80px] leading-none">
-                {blogState.time}
+                {shopState.price}
               </h2>
               <h1 className="font-medium text-[60px] lg:text-[80px] leading-none">
-                {blogState.title}
+                {shopState.title}
               </h1>
             </div>
 
@@ -92,7 +92,7 @@ const Page: NextPage<PageProps> = ({ params }: PageProps) => {
 
             <div className="w-full h-[300px] relative mt-[48px] rounded-[10px] overflow-hidden">
               <Image
-                src={blogState.img}
+                src={shopState.img}
                 objectFit="cover"
                 layout="fill"
                 alt="blog img"

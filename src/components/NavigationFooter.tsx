@@ -66,8 +66,8 @@ const NavigationFooter: React.FC = () => {
             width: isMenu ? "96%" : "0px",
           }}
           className={`
-          ${isMenu ? "h-[384px] md:h-[240px]" : "h-0"}
-          ${isMenu ? "-top-[384px] md:-top-[240px]" : "top-[15px]"}
+          ${isMenu ? "h-[320px] md:h-[240px]" : "h-0"}
+          ${isMenu ? "-top-[320px] md:-top-[240px]" : "top-[15px]"}
           absolute bg-white text-black shadow-md duration-200 rounded-[10px] overflow-hidden`}
         >
           <ul>
@@ -79,21 +79,9 @@ const NavigationFooter: React.FC = () => {
               </Link>
             </li>
 
-            <li className="mb-[16px] block md:hidden">
-              <Link href="/restaurant">
-                <div className="text-[32px] hover:text-gray-600 h-[48px] px-[10px] border-b border-transparent hover:border-gray-300">
-                  Restaurant
-                </div>
-              </Link>
-            </li>
+            
 
-            <li className="mb-[16px] block md:hidden">
-              <Link href="/classes">
-                <div className="text-[32px] hover:text-gray-600 h-[48px] px-[10px] border-b border-transparent hover:border-gray-300">
-                  Classes
-                </div>
-              </Link>
-            </li>
+            
 
             <li className="mb-[16px]">
               <Link href="/shop">

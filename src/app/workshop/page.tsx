@@ -7,7 +7,7 @@ export default function Menu() {
   return (
     <>
       <Head>
-        <title>Restaurant Hukka Bukka</title>
+        <title>Atelier CAMARIO</title>
       </Head>
       <main className="min-h-screen relative overflow-hidden">
         <WorkshopSection />
