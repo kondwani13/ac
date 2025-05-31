@@ -25,8 +25,8 @@ export default function Home() {
               Atelier CAMARIO
             </h1>
             <p className="text-xl md:text-[23px] text-center md:text-start mt-[20px] md:max-w-[600px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
+              We are a design house and cocktail bar
+              Fashion /Interior architecture /graphic design.
             </p>
 
             <div className="w-full flex-col justify-center max-w-[650px]">

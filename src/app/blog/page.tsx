@@ -12,7 +12,7 @@ export default function Blog() {
       <section className="w-full flex flex-col lg:flex-row h-full min-h-screen overflow-hidden">
         <div
           style={{
-            background: `url(https://images.unsplash.com/photo-1618616058461-9b827bc808e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1075&q=80)`,
+            background: `url(https://i.ibb.co/YHQ5W7X/bg.jpg)`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",

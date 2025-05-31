@@ -7,45 +7,45 @@ const blogData: {
 }[] = [
   {
     id: 1,
-    title: "Gatsby Night",
+    title: "SAUTI VOL1",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit eo ut vitae neque sed sed sit sagittis tristique scelerisque.",
-    time: "September 19, 2022",
-    img: "https://images.unsplash.com/photo-1642773520998-7bc84e6afd80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1176&q=80",
+      "Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.",
+    time: "April 26, 2025",
+    img: "https://i.ibb.co/K3WGRmk/s.jpg",
   },
 
   {
     id: 2,
-    title: "Gift Card Standard",
+    title: "Rhythm and poetry",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit eo ut vitae neque sed sed sit sagittis tristique scelerisque.",
-    time: "September 19, 2022",
-    img: "https://plus.unsplash.com/premium_photo-1663011391833-e575d20b3a88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.",
+    time: "April 26, 2025",
+    img: "https://i.ibb.co/VYW2pFmj/s1.jpg",
   },
 
   {
     id: 3,
-    title: "New Restaurant",
+    title: "Cocktail",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit eo ut vitae neque sed sed sit sagittis tristique scelerisque.",
-    time: "September 19, 2022",
-    img: "https://images.unsplash.com/photo-1649695121711-2f2ea8e8faf4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.",
+    time: "April 26, 2025",
+    img: "https://i.ibb.co/VcmKhqX1/s2.jpg",
   },
   {
     id: 4,
-    title: "Romantic Dinner",
+    title: "Interior design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit eo ut vitae neque sed sed sit sagittis tristique scelerisque.",
-    time: "September 19, 2022",
-    img: "https://images.unsplash.com/photo-1525818080574-aa8f3221fdee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+      "Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.",
+    time: "September 19, 2024",
+    img: "https://i.ibb.co/LDf9gsbd/s3.jpg",
   },
   {
     id: 5,
-    title: "Brand New Kitchen",
+    title: "Chairs",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit eo ut vitae neque sed sed sit sagittis tristique scelerisque.",
-    time: "September 29, 2022",
-    img: "https://images.unsplash.com/photo-1580929211634-0e8f1adae279?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
+      "Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.",
+    time: "September 29, 2024",
+    img: "https://i.ibb.co/x8q2NgPW/s4.jpg",
   },
 ];
 

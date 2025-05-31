@@ -10,6 +10,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 
+
 //------------------------------------------------------------------
 interface PageProps {
   params: { shopId: string };
@@ -78,7 +79,8 @@ const Page: NextPage<PageProps> = ({ params }: PageProps) => {
           </div>
 
           <div className="w-full lg:w-[50%] pt-[96px] h-screen overflow-hidden overflow-y-scroll px-4 lg:px-[80px]">
-            <h2 className="text-[24px]">Lorem ipsum dolor</h2>
+            <h2 className="text-[24px]">AC Item</h2>
+            
             <p className="text-white text-[16px] text-opacity-50 mt-[16px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -99,7 +101,7 @@ const Page: NextPage<PageProps> = ({ params }: PageProps) => {
               />
             </div>
 
-            <h2 className="text-[24px] mt-[48px]">Lorem ipsum dolor</h2>
+            <h2 className="text-[24px] mt-[48px]">AC Item</h2>
             <p className="text-white text-[16px] text-opacity-50 mt-[16px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

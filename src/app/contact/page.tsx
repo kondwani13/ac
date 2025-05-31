@@ -29,7 +29,7 @@ export default function BookATable() {
         <section className="w-full flex flex-col lg:flex-row h-full min-h-screen">
           <div
             style={{
-              background: `url(https://images.unsplash.com/photo-1536822919364-de5612490f1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80)`,
+              background: `url(https://i.ibb.co/nMSkbKHS/we.jpg)`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
             }}
@@ -53,9 +53,7 @@ export default function BookATable() {
           <div className="w-full lg:w-[50%] flex flex-col justify-center h-auto px-4 pb-4 lg:px-0 lg:pb-0">
             <div className="max-w-[560px] h-auto mx-auto w-full">
               <p className="text-white text-opacity-50 text-[20px] mt-[16px]">
-                Volutpat maecenas volutpat blandit aliquam etiam erat velit
-                scelerisque. Arcu non odio euismod lacinia. Tortor aliquam nulla
-                facilisi cras fermentum odio eu.
+                Have questions or want to learn more? We'd love to hear from you! Please fill out the form below or reach out to us directly. We'll get back to you as soon as we can.
               </p>
 
               <form
@@ -88,7 +86,7 @@ export default function BookATable() {
                 />
 
                 <button className="bg-[#F8D49E] active:scale-95 hover:bg-[#f4ca8a] duration-150 mt-[48px] w-full text-black text-[16px] uppercase flex items-center justify-center rounded-[500px] h-[60px]">
-                  Book A Table
+                  Send
                 </button>
               </form>
             </div>

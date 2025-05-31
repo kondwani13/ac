@@ -9,7 +9,7 @@ const WorkshopSection: FC = () => {
     <section className="w-full flex flex-col lg:flex-row h-full min-h-screen">
       <div
         style={{
-          background: `url(https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80)`,
+          background: `url(https://i.ibb.co/992skRy5/hh.jpg)`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
@@ -21,10 +21,10 @@ const WorkshopSection: FC = () => {
         </Link>
         <div className="text-center">
           <h2 className="text-[#FACE8D] font-dancing text-[60px] lg:text-[80px] leading-none">
-            Shop
+            See
           </h2>
           <h1 className="font-medium text-[60px] lg:text-[80px] leading-none">
-            Delicious Breakfast
+            Events
           </h1>
         </div>
 

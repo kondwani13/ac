@@ -27,9 +27,7 @@ const Footer = () => {
             <Link href="/menu">Menu</Link>
           </li>
           
-          <li className="mb-[16px] text-[16px] text-white text-opacity-50 cursor-pointer">
-            <Link href="/classes">Classes</Link>
-          </li>
+          
           <li className="mb-[16px] text-[16px] text-white text-opacity-50 cursor-pointer">
             <Link href="/book-a-table">Book a Table</Link>
           </li>
