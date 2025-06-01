@@ -80,14 +80,7 @@ const Page: NextPage<PageProps> = ({ params }: PageProps) => {
           <div className="w-full lg:w-[50%] pt-[96px] h-screen overflow-hidden overflow-y-scroll px-4 lg:px-[80px]">
             <h2 className="text-[24px]">Lorem ipsum dolor</h2>
             <p className="text-white text-[16px] text-opacity-50 mt-[16px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Integer malesuada nunc vel risus commodo viverra maecenas. Dis
-              parturient montes nascetur ridiculus mus mauris vitae ultricies.
-              Placerat duis ultricies lacus sed turpis. Vel elit scelerisque
-              mauris pellentesque pulvinar pellentesque habitant morbi
-              tristique. Turpis massa sed elementum tempus egestas sed sed
-              risus.
+              Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.
             </p>
 
             <div className="w-full h-[300px] relative mt-[48px] rounded-[10px] overflow-hidden">
@@ -96,34 +89,19 @@ const Page: NextPage<PageProps> = ({ params }: PageProps) => {
                 objectFit="cover"
                 layout="fill"
                 alt="blog img"
+                unoptimized={true}
               />
             </div>
 
             <h2 className="text-[24px] mt-[48px]">Lorem ipsum dolor</h2>
             <p className="text-white text-[16px] text-opacity-50 mt-[16px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Integer malesuada nunc vel risus commodo viverra maecenas. Dis
-              parturient montes nascetur ridiculus mus mauris vitae ultricies.
-              Placerat duis ultricies lacus sed turpis. Vel elit scelerisque
-              mauris pellentesque pulvinar pellentesque habitant morbi
-              tristique. Turpis massa sed elementum tempus egestas sed sed
-              risus.
+              Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.
               <br />
               <br />
-              orem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Integer malesuada nunc vel risus commodo viverra maecenas. Dis
-              parturient
+              Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.
               <br />
               <br />
-              Eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Integer malesuada nunc vel risus commodo viverra maecenas. Dis
-              parturient montes nascetur ridiculus mus mauris vitae ultricies.
-              Placerat duis ultricies lacus sed turpis. Vel elit scelerisque
-              mauris pellentesque pulvinar pellentesque habitant morbi
-              tristique. Turpis massa sed elementum tempus egestas sed sed
-              risus.
+              Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.
             </p>
 
             <div className="px-[50px]">

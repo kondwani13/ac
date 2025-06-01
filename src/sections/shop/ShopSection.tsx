@@ -43,6 +43,7 @@ const ShopSection: FC = () => {
                   alt="card"
                   layout="fill"
                   className="z-10"
+                  
                 />
                 <div
                   style={{ background: `${value.logoBg}` }}
