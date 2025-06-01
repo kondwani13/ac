@@ -19,6 +19,7 @@ const Feed = () => {
                             layout="fill"
                             className="z-10 rounded-[10px]"
                             objectFit="cover"
+                            unoptimized={true}
                           />
                         </div>
       <p className="text-[16px] text-white text-opacity-50 mt-[16px]">
