@@ -49,7 +49,7 @@ export default function Classes() {
               <h1 className="text-[#FACE8D] font-dancing text-[64px]">Asian</h1>
               <h3 className="text-[40px]">Delicious Breakfast</h3>
               <p className="text-[13px] text-white text-opacity-50">
-                June 16, 2023
+                June 16, 2025
               </p>
             </div>
           </SwiperSlide>
@@ -68,7 +68,7 @@ export default function Classes() {
               </h1>
               <h3 className="text-[40px]">Coffee Time</h3>
               <p className="text-[13px] text-white text-opacity-50">
-                June 16, 2023
+                June 16, 2025
               </p>
             </div>
           </SwiperSlide>
@@ -85,7 +85,7 @@ export default function Classes() {
               <h1 className="text-[#FACE8D] font-dancing text-[64px]">Vegan</h1>
               <h3 className="text-[40px]">Vegan Burger</h3>
               <p className="text-[13px] text-white text-opacity-50">
-                June 16, 2023
+                June 16, 2025
               </p>
             </div>
           </SwiperSlide>
@@ -104,7 +104,7 @@ export default function Classes() {
               </h1>
               <h3 className="text-[40px]">Salad Style</h3>
               <p className="text-[13px] text-white text-opacity-50">
-                June 16, 2023
+                June 16, 2025
               </p>
             </div>
           </SwiperSlide>
@@ -123,7 +123,7 @@ export default function Classes() {
               </h1>
               <h3 className="text-[40px]">Homemade Honey</h3>
               <p className="text-[13px] text-white text-opacity-50">
-                June 16, 2023
+                June 16, 2025
               </p>
             </div>
           </SwiperSlide>
@@ -140,7 +140,7 @@ export default function Classes() {
               <h1 className="text-[#FACE8D] font-dancing text-[64px]">Asian</h1>
               <h3 className="text-[40px]">Delicious Breakfast</h3>
               <p className="text-[13px] text-white text-opacity-50">
-                June 16, 2023
+                June 16, 2025
               </p>
             </div>
           </SwiperSlide>

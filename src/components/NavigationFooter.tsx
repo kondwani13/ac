@@ -7,7 +7,7 @@ const NavigationFooter: React.FC = () => {
   const [isMenu, setIsMenu] = useState<boolean>(false);
 
   return (
-    <div className="w-full max-w-[520px] h-[68px] relative">
+    <div className="w-full relative -mt-[40px] max-w-[420px] h-[68px] relative">
       <div className="w-full max-w-[520px] h-[68px] rounded-[100px] bg-white mt-[22px] text-black">
         <ul className="w-full h-full flex items-center justify-between md:justify-normal p-[10px]">
           <li>
@@ -26,14 +26,6 @@ const NavigationFooter: React.FC = () => {
               className="h-[48px] cursor-pointer rounded-[100px] flex items-center justify-center p-[16px] ml-[14px] hover:bg-gray-100"
             >
               Menu
-            </Link>
-          </li>
-          <li className="hidden sm:block">
-            <Link
-              href="restaurant"
-              className="h-[48px] cursor-pointer rounded-[100px] flex items-center justify-center p-[16px] ml-[14px] hover:bg-gray-100"
-            >
-              Restaurant
             </Link>
           </li>
           <li className="hidden sm:block">
