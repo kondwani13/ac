@@ -4,7 +4,6 @@ const shopData: {
   description: string;
   price: string;
   img: string;
-  unoptimized: boolean;
 }[] = [
   {
     id: 1,
@@ -13,7 +12,6 @@ const shopData: {
       "Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.",
     price: "150k",
     img: "https://i.ibb.co/gFyfyhmn/sh1.jpg",
-    unoptimized: true,
   },
 
   {
@@ -23,7 +21,6 @@ const shopData: {
       "Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.",
     price: "250k",
     img: "https://i.ibb.co/yB51Rz2V/sh2.jpg",
-    unoptimized: true,
   },
 
   {
@@ -33,7 +30,6 @@ const shopData: {
       "Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.",
     price: "200k",
     img: "https://i.ibb.co/XZ5SmGsp/sh5.jpg",
-    unoptimized: true,
   },
   {
     id: 4,
@@ -42,7 +38,6 @@ const shopData: {
       "Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.",
     price: "350k",
     img: "https://i.ibb.co/mF937Lc5/sh3.jpg",
-    unoptimized: true,
   },
   {
     id: 5,
@@ -51,7 +46,6 @@ const shopData: {
       "Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.",
     price: "100k",
     img: "https://i.ibb.co/1G11dQyH/sh4.jpg",
-    unoptimized: true,
   },
 ];
 

@@ -54,6 +54,7 @@ const Feed = () => {
                 width={40}
                 height={40}
                 className="overflow-hidden h-[40px] w-[40px] rounded-full object-cover"
+                unoptimized={true}
               />
               <p className="text-[18px] text-white text-opacity-50 ml-[6px]">
                 Kondwani Tech
@@ -88,6 +89,7 @@ const Feed = () => {
               src={item.pictureUrl}
               alt={item.name}
               className="rounded-[10px]"
+              unoptimized={true}
             />
             <div className="ml-[24px]">
               <div className="flex items-center justify-between">
@@ -113,6 +115,7 @@ const Feed = () => {
             width={80}
             height={80}
             className="min-w-[80px] w-full min-h-[80px] max-h-[80px] object-cover rounded-full"
+            unoptimized={true}
           />
         </div>
         <div className="flex flex-col ml-[32px]">

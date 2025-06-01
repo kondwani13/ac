@@ -98,6 +98,7 @@ const Page: NextPage<PageProps> = ({ params }: PageProps) => {
                 objectFit="cover"
                 layout="fill"
                 alt="blog img"
+                unoptimized={true}
               />
             </div>
 

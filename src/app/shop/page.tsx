@@ -46,6 +46,7 @@ export default function Shop() {
                       layout="fill"
                       className="z-10 rounded-[10px]"
                       objectFit="cover"
+                      unoptimized={true}
                     />
                   </div>
                   <div className="h-full px-[32px] py-[32px]">
