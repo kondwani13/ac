@@ -107,6 +107,7 @@ const Feed: FC<IProps> = ({
               src={item.pictureUrl}
               alt={item.name}
               className="rounded-[10px]"
+              unoptimized={true}
             />
             <div className="ml-[24px]">
               <div className="flex items-center justify-between">
@@ -135,6 +136,7 @@ const Feed: FC<IProps> = ({
               src={item.pictureUrl}
               alt={item.name}
               className="rounded-[10px]"
+              unoptimized={true}
             />
             <div className="ml-[24px]">
               <div className="flex items-center justify-between">
