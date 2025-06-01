@@ -13,6 +13,7 @@ const WorkshopSection: FC = () => {
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
+          unoptimized={true}
         }}
         className="w-full lg:w-[50%] p-12 flex flex-col justify-between items-center min-h-screen h-full"
       >
