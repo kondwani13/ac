@@ -17,7 +17,7 @@ export default function Home() {
             <img width={100} src="https://i.ibb.co/jv8vLVHS/logos-copy.png" alt="ac" />
           </Link>
 
-          <div className="flex flex-col items-center">
+          <div className="flex relative -mt-[150px] sm:-mt-[150px] flex-col items-center">
             <h2 className="text-[#FACE8D] font-dancing text-2xl sm:text-[40px] md:text-[60px] lg:text-[80px] leading-none">
               The taste of
             </h2>
