@@ -12,18 +12,12 @@ const Feed = () => {
       <h1 className="mt-[8px] text-[40px]">Reserve Your Spot</h1>
       <div className="min-w-[280px] min-h-[260px] lg:min-h-[210px] relative flex justify-center items-center">
                           <Image
-                            src={
-                               "https://i.ibb.co/Y75CNL3C/dm.webp"
-                }
+                            src="https://i.ibb.co/Y75CNL3C/dm.webp"
                             alt="card"
                             layout="fill"
                             className="z-10 rounded-[10px]"
                             objectFit="cover"
-<<<<<<< HEAD
-                            
-=======
                             unoptimized={true}
->>>>>>> e8a705403b9f2c377b005935fd6625b09762d1d7
                           />
                         </div>
       <p className="text-[16px] text-white text-opacity-50 mt-[16px]">
