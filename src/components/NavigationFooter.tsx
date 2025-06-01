@@ -7,7 +7,7 @@ const NavigationFooter: React.FC = () => {
   const [isMenu, setIsMenu] = useState<boolean>(false);
 
   return (
-    <div className="w-full relative max-w-[420px] mb-[60px] h-[68px] relative">
+    <div className="w-full relative max-w-[420px] mb-[30px] h-[68px] relative">
       <div className="w-full max-w-[520px] h-[68px] rounded-[100px] bg-white mt-[22px] text-black">
         <ul className="w-full h-full flex items-center justify-between md:justify-normal p-[10px]">
           <li>
