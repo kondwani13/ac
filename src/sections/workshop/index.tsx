@@ -9,7 +9,7 @@ const WorkshopSection: FC = () => {
     <section className="w-full flex flex-col lg:flex-row h-full min-h-screen">
       <div
         style={{
-          background: `url(https://i.ibb.co/992skRy5/hh.jpg)`,
+          background: `url(https://i.ibb.co/9kpLT25x/bgw.jpg)`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",

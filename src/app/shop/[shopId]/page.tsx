@@ -82,14 +82,7 @@ const Page: NextPage<PageProps> = ({ params }: PageProps) => {
             <h2 className="text-[24px]">AC Item</h2>
             
             <p className="text-white text-[16px] text-opacity-50 mt-[16px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Integer malesuada nunc vel risus commodo viverra maecenas. Dis
-              parturient montes nascetur ridiculus mus mauris vitae ultricies.
-              Placerat duis ultricies lacus sed turpis. Vel elit scelerisque
-              mauris pellentesque pulvinar pellentesque habitant morbi
-              tristique. Turpis massa sed elementum tempus egestas sed sed
-              risus.
+              Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.
             </p>
 
             <div className="w-full h-[300px] relative mt-[48px] rounded-[10px] overflow-hidden">
@@ -104,31 +97,13 @@ const Page: NextPage<PageProps> = ({ params }: PageProps) => {
 
             <h2 className="text-[24px] mt-[48px]">AC Item</h2>
             <p className="text-white text-[16px] text-opacity-50 mt-[16px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Integer malesuada nunc vel risus commodo viverra maecenas. Dis
-              parturient montes nascetur ridiculus mus mauris vitae ultricies.
-              Placerat duis ultricies lacus sed turpis. Vel elit scelerisque
-              mauris pellentesque pulvinar pellentesque habitant morbi
-              tristique. Turpis massa sed elementum tempus egestas sed sed
-              risus.
+              Atelier Camario is a lifestyle brand governed by passion and creativity located in the capital city of Zambia Lusaka . The atelier touches different aspects of design such as art, fashion and architecture.
               <br />
-              <br />
-              orem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Integer malesuada nunc vel risus commodo viverra maecenas. Dis
-              parturient
-              <br />
-              <br />
-              Eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Integer malesuada nunc vel risus commodo viverra maecenas. Dis
-              parturient montes nascetur ridiculus mus mauris vitae ultricies.
-              Placerat duis ultricies lacus sed turpis. Vel elit scelerisque
-              mauris pellentesque pulvinar pellentesque habitant morbi
-              tristique. Turpis massa sed elementum tempus egestas sed sed
-              risus.
+              
             </p>
-
+            <button className="bg-[#F8D49E] active:scale-95 hover:bg-[#f4ca8a] duration-150 mt-[48px] w-full text-black text-[16px] uppercase flex items-center justify-center rounded-[500px] h-[60px]">
+                  Buy
+            </button> 
             <div className="px-[50px]">
               <Footer />
             </div>
