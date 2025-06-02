@@ -30,7 +30,7 @@ export default function Home() {
             </p>
 
             <div className="w-full flex-col justify-center max-w-[650px]">
-              <div className="mt-[23px] max-w-[650px] w-full flex justify-end">
+              <div className="mt-[23px] ml-10 max-w-[650px] w-full flex justify-end">
                 <div className="bg-white w-[250px] h-[163px] rounded-[10px] text-black py-4 px-6 hidden sm:block">
                   <h3 className="font-normal tracking-wide">Opening Hours</h3>
                   <div className="mt-2 flex justify-between items-center">
